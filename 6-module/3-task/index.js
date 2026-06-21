@@ -5,7 +5,6 @@ export default class Carousel {
     this.slides = slides;
     this.elem = this.render();
     this.initCarousel(this.elem);
-    //test
   }
   
   render() {
