@@ -1,4 +1,3 @@
-// import { act } from 'react';
 import createElement from '../../assets/lib/create-element.js';
 
 export default class RibbonMenu {
@@ -6,9 +5,6 @@ export default class RibbonMenu {
     this.categories = categories;
     this.elem = this.createMenu();
     this.scrollMenu(this.elem);
-    // requestAnimationFrame(() => {
-    //   this.scrollMenu(this.elem);
-    // })
   }
   createMenu() {
 
