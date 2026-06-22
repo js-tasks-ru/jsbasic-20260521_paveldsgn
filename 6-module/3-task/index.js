@@ -1,11 +1,11 @@
 import createElement from '../../assets/lib/create-element.js';
 
 export default class Carousel {
+
   constructor(slides) {
     this.slides = slides;
     this.elem = this.render();
     this.initCarousel(this.elem);
-    //qwe
   }
   
   render() {
@@ -118,5 +118,6 @@ export default class Carousel {
         arrowLeft.style.display = 'none';
       }
     });
+
   }
 }
